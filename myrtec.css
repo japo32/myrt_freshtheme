@@ -1,0 +1,308 @@
+/***************************
+  Admin menu fix
+ */
+
+#admin-menu #admin-menu-menu{
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  font-size: 10px;
+}
+
+#admin-menu .dropdown li{
+  height: 20px;
+}
+
+#admin-menu-menu .admin-menu-tab {
+  border: none;
+  text-shadow: none;
+  letter-spacing: inherit;
+}
+
+#admin-menu-menu .admin-menu-tab a {
+  letter-spacing: inherit;
+}
+
+/***************************
+  Myrtec Stlyes
+*/
+
+
+.myrtec {
+  margin-bottom: 5px;
+}
+
+.myrtec a {
+  opacity: 0.5;
+}
+
+.myrtec a:hover {
+  opacity: 1;
+}
+
+.myrtec img {
+  vertical-align: middle;
+}
+
+
+/***************************
+  General Stlyes
+*/
+
+body{
+}
+
+#footer{
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #55f;
+}
+
+p{
+  margin: 0 0 1em 0;
+}
+
+.block{
+  margin-bottom: 0.5em;
+}
+
+em{
+}
+
+#navigation{
+
+}
+
+#page-title{
+}
+
+.clear-block{
+  clear: both;
+}
+
+.helper{
+  font-size: 0.8em;
+  opacity: 0.8;
+  line-height: 1.2em;
+}
+.helper:hover{
+  opacity: 1;
+}
+
+/*
+    Transitions
+*/
+a,
+img,
+#logo,
+#navigation a,
+#navigation .nice-menu li a,
+#footer a,
+.social-block-inner,
+.box-link,
+.front-box-corner,
+#block-block-4 a.donate,
+.footer-logo .footer-logo-in,
+.pane-views-ads-block .views-field-view-node a{
+  -webkit-transition: 200ms ease;
+  -moz-transition: 200ms ease;
+  -ms-transition: 200ms ease;
+  -o-transition: 200ms ease;
+  transition: 200ms ease;
+}
+
+/***************************
+General Views Styles
+*/
+
+.more-link{
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.views-field-view-node{
+  text-align: right;
+  text-transform: uppercase;
+  clear: both;
+}
+
+/***************************
+  Layout
+*/
+
+body{
+}
+
+
+/***************************
+content Views Styles
+*/
+
+#content .view-content .views-row{
+}
+
+#content .view-content .views-field-field-image{
+  float: right;
+  margin: 0 0 10px 10px;
+}
+#content .view-content .views-field-field-image img{
+  padding: 5px;
+}
+#content .view-content .views-field-field-image a:hover img{
+}
+
+#content .view-content .views-field-title{
+  margin-bottom: 10px;
+}
+
+#content .view-content .views-field-title h2{
+  font-size: 2.1em;
+  line-height: 1em;
+  margin: 0;
+}
+
+
+/***************************
+  Node Styles
+*/
+
+.page-node #content .node .field-name-field-image{
+  float: right;
+  margin: 0 0 10px 10px;
+}
+.page-node #content .node .field-name-field-image img{
+  padding: 5px;
+}
+.page-node #content .node .field-name-field-image a:hover img{
+}
+.page-node #content .node .field-name-field-date {
+  font-size: 1.3em;
+}
+
+
+/***************************
+  HEADER
+*/
+
+
+
+/*
+    Main Menu
+*/
+
+#navigation .nice-menu{
+  width: 100%;
+}
+
+#navigation .nice-menu li{
+  background:transparent;
+  border: 0;
+  display: inline-block;
+  float: none;
+}
+
+#navigation .nice-menu li.last{
+  border-right: 0;
+}
+
+#navigation .nice-menu li a{
+  display: inline-block;
+}
+
+#navigation .nice-menu li a:hover{
+}
+
+#navigation .nice-menu li ul{
+}
+
+#navigation .nice-menu li ul li{
+}
+
+
+/***************************
+  FOOTER
+*/
+
+#footer{
+}
+
+/*
+    Footer Menu
+*/
+
+#footer #block-system-main-menu ul.menu{
+}
+
+#footer #block-system-main-menu .menu li{
+  display: inline-block;
+  list-style: none;
+}
+
+#footer #block-system-main-menu .menu a{
+  display: inline-block;
+}
+
+#footer #block-system-main-menu .menu a:hover{
+}
+
+#footer #block-system-main-menu .menu .last{
+}
+
+
+/***************************
+  HOMEPAGE
+*/
+.front #page-title{
+  display: none;
+}
+
+
+/**************************************
+  Contact Page
+*/
+
+.section-contact #content .field-name-body{
+  float: left;
+  width: 50%;
+}
+
+.section-contact #content .field-name-body table{
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+.section-contact #content .webform-client-form{
+  float: left;
+  width: 49%;
+  padding-left: 1%;
+}
+
+.section-contact #content .field-name-body tr{
+  margin-bottom: 5px;
+}
+
+.section-contact #content .field-name-body td{
+  padding: 2px 5px;
+}
+
+.section-contact #content .field-name-body td:first-child{
+  color: #fff;
+  font-weight:bold;
+  background-color: #81141A;
+  text-align: center;
+}
+
+.section-contact #content .field-name-body iframe{
+}
+
+.section-contact #content #content .field-name-body p:last-child{
+  font-size: 0.8em;
+}
+
+
+
+
